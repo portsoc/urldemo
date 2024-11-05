@@ -5,10 +5,17 @@
     <h1>About us</h1>
 </header>
 
-<main>  
+<main>
     <p>We are super secret. To figure out who we are you will have to <a href="contact.html">Contact us!</a></p>
 </main>
 
 <footer>
     <p>Done here? <a href="../index.html">Head home</a></p>
+
+    <!-- this link will work when served locally or from a dedicated server -->
+    <!-- but not on GHPages where a subfolder becomes the root of the site. -->
+    <p>
+        Does a Root Relative URL work from here?
+        Find out by <a href="/index.html">heading home</a>
+    </p>
 </footer>
